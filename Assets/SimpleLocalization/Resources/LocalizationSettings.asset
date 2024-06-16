@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63817d93022759543b57e795c78efe11, type: 3}
+  m_Name: LocalizationSettings
+  m_EditorClassIdentifier: 
+  TableId: 10V0jdA2a3Bt9O4VrJLMN8cbtcPqPcf4k6eEldweBTAI
+  Sheets:
+  - Name: Term
+    Id: 0
+    TextAsset: {fileID: 4900000, guid: 4eb0bff6eb0bd3e44be7f26d10a1c062, type: 3}
+  - Name: AbilityName
+    Id: 1418115379
+    TextAsset: {fileID: 4900000, guid: f9b762451b8b3f44193e16675b8c01d5, type: 3}
+  - Name: AbilityDiscription
+    Id: 553476417
+    TextAsset: {fileID: 4900000, guid: bec62a179df8d8547a5750e114b9d270, type: 3}
+  - Name: TechnologyName
+    Id: 450200852
+    TextAsset: {fileID: 4900000, guid: f3d80a4a4c79e154fa4fb1c44cf7dab2, type: 3}
+  - Name: ClassAndRaceName
+    Id: 1802293167
+    TextAsset: {fileID: 4900000, guid: 092cf8624725b8a47813461704fa4907, type: 3}
+  - Name: ClassAndNameDescription
+    Id: 2002188738
+    TextAsset: {fileID: 4900000, guid: 9c2180ae14252cd4792532db314fd102, type: 3}
+  - Name: CardName
+    Id: 1015203300
+    TextAsset: {fileID: 4900000, guid: 8e208bc691e650945a983b33066ffb40, type: 3}
+  - Name: EnemyName
+    Id: 2087568567
+    TextAsset: {fileID: 4900000, guid: 66f338d4f84227144a1391eb03355c7a, type: 3}
+  SaveFolder: {fileID: 102900000, guid: c392831e85f928548b8494fefd912562, type: 3}

@@ -1,0 +1,5 @@
+keys,English,Russian
+id_infantry,@red Infantry,@red Пехотинец
+id_gunner,@blue Gunner,@blue Стрелок
+id_ingineer,Ingineer,@blue Инженер
+id_scientist,Scientist,Ученый

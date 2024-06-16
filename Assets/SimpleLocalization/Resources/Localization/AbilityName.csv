@@ -1,0 +1,22 @@
+keys,English,Russian
+id_attack_n,,Пехотная атака
+id_defence_n,,Защита
+id_vendeta_n,,Показное Убийство
+id_shieldHit_n,,Удар Щитом
+id_finish_n,,Добивание
+id_barricade_n,,Баррикада
+id_mine_n,,Мины
+id_turret_n,,Турель
+id_place_n,,Плацдарм
+id_lab_n,,Лабораторя
+id_shot_n,,Выстрел
+id_shrapnel_n,,Шрапнель
+id_incendary_n,,Зажигательный Снаряд
+id_mark_n,,Пристрелка
+id_snapshot_n,,Снайперский выстрел
+id_research_n,,Исследование
+id_addTechno_n,,Добавить Технологию
+id_mix_n,,Сбой Навигации
+id_fastBuild_n,,Иженерия
+id_troopTactic_n,,Военная тактика
+id_ballistics_n,,Баллистика
