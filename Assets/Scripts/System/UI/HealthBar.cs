@@ -9,6 +9,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private RectTransform _damageRect;
     [SerializeField] private bool _isVertical;
     [SerializeField] private float _filledSpeed;
+    [SerializeField] private Text _valueText;
 
     private float _value = 1;
     private float _damageValue = 1;
@@ -27,6 +28,11 @@ public class HealthBar : MonoBehaviour
 
     }
 
+    public void SetValue(float current, float max)
+    {
+        SetValue(current / max);
+        _valueText.text = current + "/" + max;
+    }
     private void Update()
     {
         if (_damageValue > _value)

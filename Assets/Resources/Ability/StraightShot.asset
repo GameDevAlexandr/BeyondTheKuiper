@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fae5878569c2bc458d55220794e337d, type: 3}
+  m_Name: StraightShot
+  m_EditorClassIdentifier: 
+  _type: 0
+  _abilityHandler: {fileID: 8504549478867619803, guid: b671f079de6491c4199bcb17c859a6cf, type: 3}
+  _icon: {fileID: 1347066657, guid: ee5f3e8a8ac86214280dae73160333b4, type: 3}
+  _nameID: an_StraightShot
+  _descriptionID: ad_StraigthShot

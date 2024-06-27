@@ -24,12 +24,17 @@ public class AbilityPlace : MonoBehaviour
             _abilities.Add(item, count);
         }
         int counter = 0;
+        for (int i = 0; i < _abilitiesIcon.Length; i++)
+        {
+            _abilitiesIcon[i].gameObject.SetActive(false);
+        }
         foreach (var a in _abilities)
         {
             if (counter < _abilitiesIcon.Length)
             {
                 _abilitiesIcon[counter].SetData(a.Key.icon, a.Value);
             }
+            counter++;
         }
     }
 }

@@ -27,7 +27,7 @@ public static class MyString
     {
         while (true)
         {
-            int sIdx = res.IndexOf("@");
+            int sIdx = res.IndexOf("color_");
             if (sIdx == -1)
             {
                 return res;
@@ -43,5 +43,20 @@ public static class MyString
             res = res.Remove(sIdx, eWord - sIdx);
             res = res.Insert(sIdx, ColorText(word, colIdx));
         }
+    }
+    public static string SetValueText(string[] value, string res)
+    {
+        while (true)
+        {
+            int sIdx = res.IndexOf("value_");
+            if (sIdx == -1)
+            {
+                return res;
+            }
+            int eIdx = res.IndexOf("_", sIdx - 1);
+            string v = res.Substring(eIdx + 1, 1);
+            res = res.Replace("value_" + v, value[int.Parse(v)]);
+        }
+        return res;
     }
 }

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d51ca83702da0849bdc554f97efe4df, type: 3}
+  m_Name: LaserShot
+  m_EditorClassIdentifier: 
+  _index: 0
+  _rare: 0
+  _nameID: cn_LaserShot
+  _descriptionID: 
+  _icon: {fileID: -348674810, guid: ee5f3e8a8ac86214280dae73160333b4, type: 3}
+  _abilities:
+  - item: {fileID: 11400000, guid: 8531a6e34b5ff1043a2e0b081a111525, type: 2}
+    count: 3
